@@ -1,0 +1,44 @@
+$font-style: Helvetica, sans-serif;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 44vw;
+  min-width: 28rem;
+  border: solid black 1px;
+}
+
+.firstConteneur {
+  display: flex;
+  align-items: center;
+
+  gap: 2vw;
+  border-bottom: solid lightgray 1px;
+  img {
+    height: 33vh;
+  }
+}
+
+.secondConteneur {
+  display: flex;
+
+  flex-direction: column;
+  h1 {
+    font-size: 3rem;
+    font-family: $font-style;
+  }
+  span {
+    color: grey;
+    font-family: $font-style;
+  }
+}
+.rate {
+  display: flex;
+  justify-content: space-between;
+  p {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    color: gray;
+    font-family: Helvetica;
+  }
+}
